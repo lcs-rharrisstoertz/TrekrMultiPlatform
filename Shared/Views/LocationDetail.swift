@@ -20,6 +20,7 @@ struct LocationDetail: View {
                 .scaledToFit()
             
             HStack{
+                
                 Text(location.country)
                     .font(.title)
                     .foregroundColor(.secondary)
@@ -27,7 +28,27 @@ struct LocationDetail: View {
                     .padding(.bottom)
                 
                 Spacer()
+                
             }
+            .padding(.horizontal)
+            
+            Text(location.description)
+                .padding(.horizontal)
+            
+            HStack {
+                
+                Text("Did you know?")
+                    .font(.title)
+                    .bold()
+                    .padding(.vertical)
+                
+                Spacer()
+                
+            }
+            .padding(.horizontal)
+            
+            Text(location.more)
+                .padding([.horizontal, .bottom])
             
         }
         .navigationTitle(location.name)
