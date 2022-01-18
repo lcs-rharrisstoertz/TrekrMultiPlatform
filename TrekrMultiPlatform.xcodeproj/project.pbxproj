@@ -17,6 +17,8 @@
 		254F4664279707EC006DE402 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 254F4661279707EC006DE402 /* locations.json */; };
 		254F4665279707EC006DE402 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 254F4662279707EC006DE402 /* tips.json */; };
 		254F4666279707EC006DE402 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 254F4662279707EC006DE402 /* tips.json */; };
+		254F4668279708C0006DE402 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F4667279708C0006DE402 /* location.swift */; };
+		254F4669279708C0006DE402 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F4667279708C0006DE402 /* location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		254F4650279705BC006DE402 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		254F4661279707EC006DE402 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		254F4662279707EC006DE402 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		254F4667279708C0006DE402 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			children = (
 				254F4661279707EC006DE402 /* locations.json */,
 				254F4662279707EC006DE402 /* tips.json */,
+				254F4667279708C0006DE402 /* location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F4668279708C0006DE402 /* location.swift in Sources */,
 				254F4653279705BC006DE402 /* ContentView.swift in Sources */,
 				254F4651279705BC006DE402 /* TrekrMultiPlatformApp.swift in Sources */,
 			);
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F4669279708C0006DE402 /* location.swift in Sources */,
 				254F4654279705BC006DE402 /* ContentView.swift in Sources */,
 				254F4652279705BC006DE402 /* TrekrMultiPlatformApp.swift in Sources */,
 			);
