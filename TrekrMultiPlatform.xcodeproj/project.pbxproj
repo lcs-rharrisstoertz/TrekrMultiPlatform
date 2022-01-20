@@ -118,9 +118,10 @@
 		254F46602797066E006DE402 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				254F4667279708C0006DE402 /* location.swift */,
+				254F467F2798D9F1006DE402 /* Tip.swift */,
 				254F4661279707EC006DE402 /* locations.json */,
 				254F4662279707EC006DE402 /* tips.json */,
-				254F4673279754CA006DE402 /* LocationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,8 +129,7 @@
 		254F46822798E3FF006DE402 /* View-Model */ = {
 			isa = PBXGroup;
 			children = (
-				254F4667279708C0006DE402 /* location.swift */,
-				254F467F2798D9F1006DE402 /* Tip.swift */,
+				254F4673279754CA006DE402 /* LocationStore.swift */,
 			);
 			path = "View-Model";
 			sourceTree = "<group>";
